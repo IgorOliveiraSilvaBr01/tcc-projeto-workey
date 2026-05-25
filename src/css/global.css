@@ -1,0 +1,40 @@
+/* reset da pagina - configuracao global */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    background: none;
+}
+
+:root{
+    /* paleta de cores */
+    --color-purple: #8C3CFC;
+    --col0r-dark-blue: #05255D;
+    --color-light-baige: #fbf3ec;
+    --color-gray-1: #D0D2DA;
+    --color-gray-2: #BCBCCC;
+    --color-gray-3: #BFC4CC;
+    --color-gray-4: #9AA4B8;
+    --color-grayish-blue-1: #7384A2;
+    --color-grayish-blue-2: #7C8CA4;
+    --color-text: #000000;
+    --color-text-light: #ffffff;
+  
+    /* tipografia */
+
+    /* tamanho da fonte */
+    --font-size-p: 18px;
+    --font-size-h1: 56px
+    --font-size-h2: 48px
+    --font-size-h4: 32px;
+
+    /* peso da fonte */
+    --font-regular: 400;
+    --font-semi-bold: 600 
+    --font-bold: 700;
+
+    /* tipo da fonte */
+    --font-body: 'Montserrat', sans-serif;
+}
