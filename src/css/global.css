@@ -26,13 +26,13 @@
 
     /* tamanho da fonte */
     --font-size-p: 18px;
-    --font-size-h1: 56px
-    --font-size-h2: 48px
+    --font-size-h1: 56px;
+    --font-size-h2: 48px;
     --font-size-h4: 32px;
 
     /* peso da fonte */
     --font-regular: 400;
-    --font-semi-bold: 600 
+    --font-semi-bold: 600; 
     --font-bold: 700;
 
     /* tipo da fonte */
