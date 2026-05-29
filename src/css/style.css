@@ -1,2 +1,4 @@
 /* import de todos arquivos css */
 @import url(./global.css);
+@import url(./header.css);
+@import url(./hero.css);
