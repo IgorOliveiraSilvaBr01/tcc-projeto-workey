@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 32px 64px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+}
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
