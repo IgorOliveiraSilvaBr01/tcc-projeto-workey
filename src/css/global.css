@@ -8,6 +8,10 @@
     background: none;
 }
 
+body {
+    background-color: #F8F9FA;
+}
+
 :root{
     /* paleta de cores */
     --color-purple: #8C3CFC;
