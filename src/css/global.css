@@ -6,6 +6,10 @@
     text-decoration: none;
     box-sizing: border-box;
     background: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
 }
 
 body {
@@ -25,6 +29,7 @@ body {
     --color-grayish-blue-2: #7C8CA4;
     --color-text: #000000;
     --color-text-light: #ffffff;
+    --color-dark-purple: #6622C5;
   
     /* tipografia */
 
