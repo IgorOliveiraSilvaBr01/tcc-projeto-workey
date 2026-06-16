@@ -124,8 +124,12 @@ footer {
     gap: 24px;
 }
 
+.navbar-group > nav > ul {
+    cursor: pointer;
+}
+
 .navbar-group > nav > ul > li:nth-child(1) {
-    color: var(--color-purple);
+    color: var(--color-purple); 
 }
 
 .directs-footer {
@@ -145,4 +149,5 @@ footer {
 
 .directs-footer > nav > ul > li {
     text-decoration: underline;
+    cursor: pointer;
 }
