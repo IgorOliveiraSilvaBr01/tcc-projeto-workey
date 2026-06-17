@@ -15,7 +15,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet" />
-    <script src="./src/scripts/accordion.js"></script>
 </head>
 
 <body>
@@ -291,51 +290,95 @@
         <img src="./src/assets/images/chat-faq.svg" alt="">
       </div>
 
-      <div class="faq-content">
+      <div class="container">
+        <div class="accordion">
+            <button class="accordion-header">
+                <span>
+                    A IA cria meu currículo?
+                </span>
+                <img class="arrow" src="./src/assets/images/low-arrow-faq.svg" alt="">
+            </button>
+
+            <div class="accordion-body">
+                <p>
+                    Não. A Workey utiliza suas informações para criar uma apresentação profissional organizada e personalizada em PDF.
+                </p>
+            </div>
+        </div>
 
         <div class="accordion">
-          <button class="accordion-header">
-            <span>
-              A IA cria meu currículo?
-            </span>
-            <img src="./src/assets/images/low-arrow-faq.svg" alt="">
-          </button>
+            <button class="accordion-header">
+                <span>
+                    Preciso ter Linkedin?
+                </span>
+                <img class="arrow" src="./src/assets/images/low-arrow-faq.svg" alt="">
+            </button>
 
-          <div class="accordion-body">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque cum iure quae fugit doloribus maxime? Maiores beatae accusamus officiis maxime quis ut explicabo vero laudantium ducimus assumenda, eum pariatur quaerat magni. Esse eaque eum reiciendis, neque in alias. Consectetur, voluptatibus.
-            </p>
-          </div>
+            <div class="accordion-body">
+                <p>
+                    Não. Você pode utilizar currículo, portfólio, GitHub, Behance ou qualquer outra fonte profissional relevante.
+                </p>
+            </div>
         </div>
 
-        <div>
-          <p>A IA cria meu currículo?</p>
-          <img src="./src/assets/images/low-arrow-faq.svg" alt="">
+        <div class="accordion">
+            <button class="accordion-header">
+                <span>
+                    Quanto tempo demora?
+                </span>
+                <img class="arrow" src="./src/assets/images/low-arrow-faq.svg" alt="">
+            </button>
+
+            <div class="accordion-body">
+                <p>
+                    O processo é rápido e leva apenas alguns minutos após o envio das informações.
+                </p>
+            </div>
         </div>
 
-        <div>
-          <p>APreciso ter Linkedin?</p>
-          <img src="./src/assets/images/low-arrow-faq.svg" alt="">
+        <div class="accordion">
+            <button class="accordion-header">
+                <span>
+                    Meus dados ficam seguros?
+                </span>
+                <img class="arrow" src="./src/assets/images/low-arrow-faq.svg" alt="">
+            </button>
+
+            <div class="accordion-body">
+                <p>
+                    Sim. Seus dados são utilizados apenas para gerar sua apresentação profissional e são tratados com segurança.
+                </p>
+            </div>
         </div>
 
-        <div>
-          <p>Quanto tempo demora?</p>
-          <img src="./src/assets/images/low-arrow-faq.svg" alt="">
+        <div class="accordion">
+            <button class="accordion-header">
+                <span>
+                    Posso editar depois?
+                </span>
+                <img class="arrow" src="./src/assets/images/low-arrow-faq.svg" alt="">
+            </button>
+
+            <div class="accordion-body">
+                <p>
+                    Sim. Sempre que desejar atualizar informações, basta gerar uma nova versão da sua apresentação.
+                </p>
+            </div>
         </div>
 
-        <div>
-          <p>Meus dados ficam seguros?</p>
-          <img src="./src/assets/images/low-arrow-faq.svg" alt="">
-        </div>
+        <div class="accordion">
+            <button class="accordion-header">
+                <span>
+                    A apresentação serve para qualquer lugar?
+                </span>
+                <img class="arrow" src="./src/assets/images/low-arrow-faq.svg" alt="">
+            </button>
 
-        <div>
-          <p>Posso editar depois?</p>
-          <img src="./src/assets/images/low-arrow-faq.svg" alt="">
-        </div>
-
-        <div>
-          <p>A apresentação serve para qualquer lugar?</p>
-          <img src="./src/assets/images/low-arrow-faq.svg" alt="">
+            <div class="accordion-body">
+                <p>
+                    A apresentação é criada para destacar seu perfil profissional, competências e experiências, podendo ser utilizada em diferentes oportunidades.
+                </p>
+            </div>
         </div>
       </div>
     </section>
@@ -429,6 +472,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="./src/javascript/accordion.js"></script>
 </body>
 
 </html>
